@@ -18,7 +18,7 @@ Build software that genuinely saves people time and reduces stress.
 
 Started: July 2026
 
-Founder: Aisha Aamir
+Founder: aa14coder
 
 ## Goals
 
