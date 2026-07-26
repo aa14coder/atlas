@@ -87,6 +87,82 @@ export default function Home() {
     </div>
   </div>
 </section>
+<section className="relative z-10 px-6 py-24 md:px-16">
+  <div className="mx-auto max-w-6xl">
+    <div className="mx-auto max-w-2xl text-center">
+      <p className="text-sm font-medium uppercase tracking-[0.25em] text-purple-300">
+        How it works
+      </p>
+
+      <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
+        From syllabus to study plan
+      </h2>
+
+      <p className="mt-4 text-white/60">
+        Atlas turns a complicated semester into a clear plan in three simple
+        steps.
+      </p>
+    </div>
+
+    <div className="mt-14 grid gap-6 md:grid-cols-3">
+      <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-8">
+        <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-500/15 text-blue-300">
+          1
+        </div>
+
+        <h3 className="mt-6 text-xl font-semibold">Upload your syllabus</h3>
+
+        <p className="mt-3 leading-7 text-white/60">
+          Add your course syllabus so Atlas can understand your semester.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-8">
+        <div className="flex h-11 w-11 items-center justify-center rounded-full bg-purple-500/15 text-purple-300">
+          2
+        </div>
+
+        <h3 className="mt-6 text-xl font-semibold">Atlas finds the details</h3>
+
+        <p className="mt-3 leading-7 text-white/60">
+          Important assignments, exams, and deadlines are identified for you.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-8">
+        <div className="flex h-11 w-11 items-center justify-center rounded-full bg-indigo-500/15 text-indigo-300">
+          3
+        </div>
+
+        <h3 className="mt-6 text-xl font-semibold">Get your study plan</h3>
+
+        <p className="mt-3 leading-7 text-white/60">
+          Receive a clear schedule that helps you prepare without feeling
+          overwhelmed.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer className="relative z-10 border-t border-white/10 px-6 py-8 md:px-16">
+  <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-white/50 sm:flex-row">
+    <p>© 2026 Atlas. Built for students.</p>
+
+    <div className="flex gap-6">
+      <a href="#" className="transition hover:text-white">
+        Privacy
+      </a>
+
+      <a href="#" className="transition hover:text-white">
+        Terms
+      </a>
+
+      <a href="#" className="transition hover:text-white">
+        Contact
+      </a>
+    </div>
+  </div>
+</footer>
     </main>
   );
 }
