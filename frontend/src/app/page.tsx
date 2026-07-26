@@ -31,17 +31,59 @@ export default function Home() {
           plan—all in one calm, intelligent workspace.
         </p>
 
+        
+
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          <button className="rounded-full bg-white px-7 py-3 font-medium text-black transition hover:bg-white/90">
-            Get Started
-          </button>
+          <a
+            href="/dashboard"
+            className="rounded-full bg-white px-7 py-3 font-medium text-black transition hover:bg-white/90"
+              >Get Started
+          </a>
+          
+      
+          
 
           <button className="rounded-full border border-white/20 px-7 py-3 font-medium text-white transition hover:border-white/40 hover:bg-white/10">
             Learn More
           </button>
         </div>
 
-        <div className="mt-20 h-48 w-full max-w-4xl rounded-3xl border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.02] shadow-2xl shadow-blue-500/10" />
+        <div className="mt-20 w-full max-w-5xl overflow-hidden rounded-3xl border border-white/10 bg-[#0d1228]/80 shadow-2xl shadow-purple-950/30 backdrop-blur-xl">
+  <div className="flex items-center justify-between border-b border-white/10 px-6 py-4">
+    <div className="flex gap-2">
+      <div className="h-3 w-3 rounded-full bg-red-400"></div>
+      <div className="h-3 w-3 rounded-full bg-yellow-400"></div>
+      <div className="h-3 w-3 rounded-full bg-green-400"></div>
+    </div>
+
+    <p className="text-sm text-white/50">Atlas Dashboard</p>
+
+    <div className="h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-purple-500"></div>
+  </div>
+
+  <div className="grid min-h-[350px] md:grid-cols-[220px_1fr]">
+    <aside className="border-r border-white/10 p-6 text-left">
+      <p className="mb-8 text-lg font-semibold">Atlas</p>
+
+      <div className="space-y-3 text-white/60">
+        <p>Dashboard</p>
+        <p>Courses</p>
+        <p>Study Plan</p>
+        <p>Deadlines</p>
+      </div>
+    </aside>
+
+    <div className="p-8">
+      <h3 className="text-left text-2xl font-semibold">
+        Good morning 👋
+      </h3>
+
+      <p className="mt-2 text-left text-white/50">
+        Your personalized dashboard will appear here.
+      </p>
+    </div>
+  </div>
+</div>
       </section>
       <section className="relative z-10 px-6 py-24 md:px-16">
   <div className="mx-auto max-w-6xl">
